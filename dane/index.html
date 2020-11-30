@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styl1.css">
+    <title>Filmy</title>
+  </head>
+  <body>
+    <section id="menu">
+      <h3>Dostępne gatunki filmu</h3>
+      <ol>
+        <li>Sci-Fi</li>
+        <li>animacja</li>
+        <li>dramat</li>
+        <li>horror</li>
+        <li>komedia</li>
+      </ol>
+      <p><a href="kard.jpg">Pobierz obraz</a></p>
+      <p><a href="http://repertuar-kin.pl" target="_blank">Sprawdź repertuar kin</a></p>
+    </section>
+
+    <section id="header">
+      <h1>FILMOTEKA</h1>
+    </section>
+
+    <section id="form">
+      <form class="formularz" action="dodaj.php" method="post">
+        Tytuł: <input type="text" name="title"></br>
+        Gatunek filmu: <input type="number" name="type"></br>
+        Rok produkcji: <input type="number" name="year"></br>
+        Ocena: <input type="number" name="rate"></br>
+        <input type="reset" name="reset" value="CZYŚĆ">
+        <input type="submit" name="submit" value="DODAJ">
+      </form>
+
+    </section>
+    <section id="picture">
+      <img src="kadr.jpg" alt="zdjęcia filmowe">
+    </section>
+
+    <section id="footer">
+      <p>Autor strony: 12345678910</p>
+    </section>
+  </body>
+</html>
